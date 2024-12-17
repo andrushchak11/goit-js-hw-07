@@ -9,7 +9,7 @@ function handleSubmit(event) {
   const password = form.elements.password.value.trim();
 
   if (email === "" || password === "") {
-    console.log("All form fields must be filled in");
+    alert("All form fields must be filled in");
     return;
   }
 
